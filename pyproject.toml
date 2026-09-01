@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "civic-document-intelligence"
+version = "0.1.0"
+description = "Deterministic analysis helpers for public-administration documents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Lorenzo Vasile"}]
+dependencies = []
+
+[project.scripts]
+civic-intelligence = "civic_intelligence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
