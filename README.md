@@ -1,5 +1,7 @@
 # Civic Document Intelligence
 
+[![CI](https://github.com/LorSt4r/civic-document-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/LorSt4r/civic-document-intelligence/actions/workflows/ci.yml)
+
 A small, testable Python pipeline for turning public-administration documents
 into structured records and reproducible anomaly indicators.
 
